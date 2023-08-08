@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Calculadora </title>
+        <link rel = "icon" href = "Icono.png" type = "image/x-icon">
+        <link rel = "stylesheet" href = "Calculadora.css">
+    </head>
+
+    <body>
+        <div>
+            <input type = "text" id = "Digitar" readonly>
+        </div>
+
+        <div class = "button-row">
+            <button class = "button" onclick = "Digitar('7')"> 7 </button>
+            <button class = "button" onclick = "Digitar('8')"> 8 </button>
+            <button class = "button" onclick = "Digitar('9')"> 9 </button>
+            <button class = "button operator" onclick = "Digitar('/')"> / </button>
+        </div>
+
+        <div class = "button-row">
+            <button class = "button" onclick = "Digitar('4')"> 4 </button>
+            <button class = "button" onclick = "Digitar('5')"> 5 </button>
+            <button class = "button" onclick = "Digitar('6')"> 6 </button>
+            <button class = "button operator" onclick = "Digitar('*')"> * </button>
+        </div>
+
+        <div class = "button-row">
+            <button class = "button" onclick = "Digitar('1')"> 1 </button>
+            <button class = "button" onclick = "Digitar('2')"> 2 </button>
+            <button class = "button" onclick = "Digitar('3')"> 3 </button>
+            <button class = "button operator" onclick = "Digitar('-')"> - </button>
+        </div>
+
+        <div class = "button-row">
+            <button class = "button" onclick = "Digitar('0')"> 0 </button>
+            <button class = "button" onclick = "Digitar('.')"> . </button>
+            <button class = "button" onclick = "Calcular()"> = </button>
+            <button class = "button operator" onclick = "Digitar('+')"> + </button>
+        </div>
+
+        <script src = "Calculadora.js"></script>
+
+        <p>
+            El que no calcule aquí es gei.
+        </p>
+    </body>
+</html>

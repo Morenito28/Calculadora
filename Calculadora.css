@@ -1,0 +1,46 @@
+body{
+    font-family: 'Comic Sans MS', serif;
+    background-color: #000000;
+}
+
+
+#Digitar{
+    transform: translate(30%, 50%);
+    width: 40%;
+    margin: 40px auto;
+    background-color: #c0c0c0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.button-row button{
+    transform: translate(280%, 120%);
+    width: 7%;
+    height: 25px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #353535;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+    .button-row button:hover{
+        background-color: #555;
+    }
+
+
+.button-row button.operator{
+    background-color: #f39c12;
+}
+    .button-row button.operator:hover{
+        background-color: #f1c40f;
+    }
+
+
+p{
+    text-align: right;
+    font-size: 45px;
+    color:#ffffff;
+}
